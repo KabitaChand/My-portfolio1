@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 3px solid black;
+            box-shadow: 0 0 12px;
+            border-radius: 13px;
+            width: 65%;
+            height: 80%;
+            background-color: rgb(242, 156, 222);
+            margin: 0 auto;
+        }
+        h1{
+            text-align: center;
+        }
+
+        
+        .text{
+            padding: 20px;
+            padding-right: 300px;
+            margin: 30px;
+        }
+        .textarea{
+            margin-left: 150px;
+            margin-bottom: 30px;
+        }
+        .button{
+            border-radius: 12px;
+            padding: 10px;
+            padding-left: 50px;
+            padding-right: 50px;
+            margin-top: 20px;
+            margin-left: 50%;
+            margin-bottom: 20px;
+            border-bottom: 12px;
+            background-color: aqua;
+            cursor: pointer;
+            font-weight: bolder;
+            
+        }
+        label{
+            font-weight: bolder;
+            font-size: x-large;
+            margin-left: 30px;
+        }
+        .button:hover{
+            background-color: blue;
+           
+            
+        }
+    </style>
+</head>
+<body> <div class="container">
+    <form action="post">
+        <h1>Contact me</h1>
+     <br> <label >Name:</label><input class="text" placeholder="Enter your name" type="text">
+     <br> <label >Contact: </label>  <input class="text" placeholder="E-mail or other contacts" type="text">
+     <br>    <textarea class="textarea" name="comment" placeholder="type your message..." id="" cols="75" rows="10"></textarea>
+    <button class="button">
+        submit
+    </button>
+    </form>
+</div>
+</body>
+</html>
